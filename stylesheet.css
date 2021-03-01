@@ -1,0 +1,69 @@
+body{
+    width: auto;
+}
+.home, .about, .skills{
+    height: 600px;
+}
+.header, .about, .contact{
+    background-color: rgb(193, 135, 226);
+}
+
+/*header*/
+.header{
+    height: 60px;
+}
+ul{
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+li{
+    list-style: none;
+    float: left;
+    line-height: 30px;
+    padding-right: 20px;
+    color: aqua;
+}
+
+
+/*home*/
+h1, .home p{
+    text-align: center;
+}
+h1{
+    padding-top: 200px;
+}
+
+
+/*about*/
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.contents-item{
+    width: 30%;
+    margin: 0 1.6%;
+    float: left;
+}
+
+
+/*skills*/
+.skills-items{
+    height: 80%;
+}
+.skills-item{
+    height: 25%;
+}
+.large-box{
+    width: 100%;
+    height: 30%;
+    background-color: antiquewhite;
+    border: black 10px ;
+}
+
+
+/*contact*/
+.contact{
+    height: 400px;
+}
