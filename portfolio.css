@@ -3,14 +3,16 @@ body{
 }
 .home, .about, .works{
     height: 650px;
-    margin: -5% 0 -5% 0;
 }
+
 .home, .works{
   background-color: #E0E3DA;
+  margin: -5% 0 -5% 0;
 }
 .about{
    width: 100%;
    background-color: #FFFFF3;
+   margin: 0% 0 -5% 0;
 }
 h2{
   text-align: center;
@@ -27,7 +29,7 @@ p, h2, .paragraph{
   font-weight: bold;
   text-align: right;
   margin-right: 8%;
-  margin-bottom: 1%;
+  margin-bottom: 2.5%;
 }
 
 #works{
@@ -203,7 +205,7 @@ h2{
 }
 .title{
   position: relative;
-  top: 100px;
+  top: 75px;
   padding: 30px 0 30px 120px;
   font-size: 30px;
   background-color: rgba(255, 255, 243, 0.6);
