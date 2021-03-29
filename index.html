@@ -14,11 +14,11 @@
     <div class="main">
         <div class="home" id="home">
             <img src="self-photo-preview.png" class="self" id="self-picture">
-            <div class="self intro"><span>PORTFOLIO</span>
-                <p class="paragraph">神戸大学 国際人間科学部 グローバル文化学科 ３回生の合田美聡です。
+            <div class="self intro"><span class="portfolio">PORTFOLIO</span>
+                <p class="paragraph">神戸大学 国際人間科学部 グローバル文化学科 ４回生の合田美聡です。
+                    <br>Webサービス開発やアプリ開発に興味があります。
                     <br>使用言語：HTML, CSS, PHP, JavaScript, Photoshop, Illustrator
                     <br>資格：ITパスポート
-                    <br>Webサービス開発やアプリ開発に興味があります。
                     <br>Mail：misato258062@gmail.com</p>
             </div>
         </div>
@@ -26,16 +26,16 @@
             <h2 id="about">ABOUT ME</h2>
             <div class="cotents-item-wrapper">
             <div class="contents-item">
-                <img src="past.jpg"  width="300px" height="300px"class="picture">
-                <p class="title" id="past-show">過去</p>
+                <img src="past.jpg"  width="300px" height="300px"class="past-show picture">
+                <p class="title" class="past-show">高校まで</p>
             </div>
             <div class="contents-item">
-                <img src="current.jpg" width="300px" height="300px"class="picture">
-                <p class="title" id="current-show">現在</p>
+                <img src="current.jpg" width="300px" height="300px"class="current-show picture">
+                <p class="title" class="current-show">大学時代</p>
             </div>
             <div class="contents-item">
-                <img src="future.jpg" width="300px" height="300px" class="picture">
-                <p class="title" id="future-show">将来</p>
+                <img src="future.jpg" width="300px" height="300px" class="future-show picture">
+                <p class="title" class="future-show">これから</p>
             </div>
             </div>
         </div>
@@ -71,10 +71,10 @@
                     <img src="cadnada-self-photo-3.jpg" width="40%" height= "135px" class="sub-picture">
                     <img src="language.jpg" width="40%" height= "135px" class="sub-picture">
                     <img src="programing.jpg" width="40%" height= "135px" class="sub-picture">
-                    <p class="current-form-para">大学ではアーチェリーに打ち込みました
-                        <br>音声言語学を専攻し、英語発音を研究しています
-                        <br>２回生夏にはカナダ留学へ。
-                        <br>プログラミングも始め、Webページの作成などに取り組みました
+                    <p class="current-form-para">大学ではアーチェリーに打ち込みました。
+                        <br>ゼミでは音声言語学を専攻し、英語発音を研究しています。
+                        <br>２回生夏にはカナダへ留学しました。
+                        <br>デジタルなものづくりにあこがれ、現在はプログラミングを勉強しています。
                     </p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                     <img src="application.png" width="40%" height= "135px" class="sub-picture" id="application">
                     <img src="development.jpg" width="40%" height= "135px" class="sub-picture">
                     <img src="robot.jpg" width="40%" height= "135px" class="sub-picture">
-                    <p class="future-form-para">将来はWebサービス開発やアプリ開発に興味が<br>あります
+                    <p class="future-form-para">将来はWebサービス開発やアプリ開発に興味が<br>あります。
                         <br>エンジニアとして将来はお客様に提案できるような<br>立場にもなりたいです。
                     </p>
                 </div>
@@ -101,15 +101,71 @@
             <h2 id="works">WORKS</h2>
             <div class="cotents-item-wrapper">
                 <div class="contents-item">
-                    <div class="box"></div>
+
+                    <img src="major.png"  width="300px" height="300px"  class="major-show picture">
+                    <p class="title-works" class="major-show">ゼミ・研究</p>
                 </div>
                 <div class="contents-item">
-                    <div class="box"></div>
+                    <img src="archery.work.png"  width="300px" height="300px"class="archery-show picture">
+                    <p class="title-works" class="archery-show">アーチェリー</p>
                 </div>
                 <div class="contents-item">
-                    <div class="box"></div>
+                    <img src="study-abroad.png"  width="300px" height="300px"class="study-show picture">
+                    <p class="title-works" class="study-show">カナダ留学</p>
                 </div>
                 </div>
+
+                <div class="works-modal-wrapper" id="major-modal">
+                    <div class="major-modal">
+                        <div class="close-modal">
+                            <i class="fa fa-2x fa-times"></i>
+                        </div>
+                        <div id="birth-form">
+                            <p class="works-title"></p>
+                            <img src="major.png" width="80%" height= auto class="sub-picture">
+                            <p class="major-form-para">
+                                <span class="episode">エピソード</span>
+                                <br>大学では音声言語学を専攻しています。日本語母語話者が英語発音をリスニング・スピーキングする際の特徴について研究しています。
+                                <br><span class="about-works">作品について</span>
+                                <br>ボルドーと深緑と白の配色や、舞妓さんのイラストをメインにすることで、日本らしさを表現しました。それにプラスして、たくさんのアルファベットを流れるように配置して、日本語母語話者が英語をスラスラ発音している様子を表現しました。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works-modal-wrapper" id="archery-modal">
+                    <div class="archery-modal">
+                        <div class="close-modal">
+                            <i class="fa fa-2x fa-times"></i>
+                        </div>
+                        <div id="birth-form">
+                            <p class="works-title"></p>
+                            <img src="archery.work.png" width="80%" height= auto class="sub-picture">
+                            <p class="archery-form-para">
+                                <span class="episode">エピソード</span>
+                                <br>大学からアーチェリーを始めました。個人戦・チーム戦両方があるため、自身の成績向上はもちろん、部員全員と声をかけあって、3年間モチベーション高く練習に励みました。
+                                <br><span class="about-works">作品について</span>
+                                <br>大学アーチェリーの六角形バッジを象って、写真を六角形にくり抜いて配置しました。アーチェリーの的のイラストを作成し、背景にしました。部員との写真や、個人で賞を取ったときの写真なども載せて、3年間の思い出を1枚に集約してみました。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works-modal-wrapper" id="study-modal">
+                    <div class="study-modal">
+                        <div class="close-modal">
+                            <i class="fa fa-2x fa-times"></i>
+                        </div>
+                        <div id="birth-form">
+                            <p class="works-title"></p>
+                            <img src="study-abroad.png" width="80%" height= auto class="sub-picture">
+                            <p class="study-form-para">
+                                <span class="episode">エピソード</span>
+                                <br>大学２回生でカナダに語学留学しました。クラスメイトやホストファミリーとの会話を通して、英語スキルを向上できました。
+                                <br><span class="about-works">作品について</span>
+                                <br>留学中に取った写真をカナダ国旗の模様に当てはめて、カナダへ行ったことが一目でわかるようにしました。背景の色も国旗の赤にもリンクさせて、留学中の活気あふれる感じを表現してみました。</p>
+                        </div>
+                    </div>
+                </div>
+
         </div>
     </div>
 
